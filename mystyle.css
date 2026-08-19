@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  color: #243047;
+  background-color: #f4f7fb;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  padding: 32px;
+  color: white;
+  background-color: #173b67;
+}
+
+.profile-info {
+  flex:1;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+header a {
+  margin-right: 16px;
+  color: white;
+}
+
+main,
+footer {
+  margin: 0 auto;
+  padding: 24px;
+}
+
+section {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: white;
+  border-left: 6px solid #2f80c9;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  color: #173b67;
+}
+
+.project {
+  margin-top: 16px;
+  padding: 16px;
+  background-color: #eef5fc;
+}
+
+#contact {
+  border-left-color: #ff8800;
+}
+
+#form {
+  border-left-color: #7e3900;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0px;
+  max-width: 400px;
+}
+
+section label {
+  font-weight: bold;
+}
+
+section form p{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0px;
+}
